@@ -45,17 +45,17 @@ h3{
     text-align: center;
 }
 
-.tasks_list{
+.todo-list{
     width: 400px;
     margin: 25px auto;
 }
-.taskItem{
+.todo-item{
     margin: 12px 0;
     height: 26px;
     padding: 5px;
     background-color: rgb(7, 207, 164);
     cursor: pointer;
 }
-.taskItem p{
+.todo-item p{
     margin: 0;
 }

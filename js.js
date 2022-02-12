@@ -1,11 +1,11 @@
 const inputTask = document.querySelector('.inputTask');
 const button = document.querySelector('button');
-const tasksLists = document.querySelector('.tasks_list');
+const tasksLists = document.querySelector('.todo-list');
 inputTask.focus();
 
 function addTaskItem(task) {
     const taskEl = `
-    <div class="taskItem">
+    <div class="todo-item">
         <p>${task}</p>
     </div>
 `
@@ -21,7 +21,7 @@ button.addEventListener('click', (e) => {
 });
 
 tasksLists.addEventListener('click', (e) => {
-    const taskelements = document.querySelectorAll('.taskItem');
+    const taskelements = document.querySelectorAll('.todo-item');
     taskelements.forEach((el) => {
         el.addEventListener('click', () => {
             el.remove();
