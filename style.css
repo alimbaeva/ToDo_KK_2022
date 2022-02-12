@@ -1,0 +1,61 @@
+.formDiv{
+    width: 450px; 
+    margin: 0 auto; 
+    border: 1px solid darkblue;
+}
+
+form{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+form label{
+    margin: 25px 0;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+form input{
+    height: 40px;
+    margin-top: 5px;
+}
+form button{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    background-color: rgb(6, 105, 84);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tasks{
+    width: 450px;  
+    margin: 70px auto;
+    border: 1px solid darkblue;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.tasks_list{
+    width: 400px;
+    margin: 25px auto;
+}
+.taskItem{
+    margin: 12px 0;
+    height: 26px;
+    padding: 5px;
+    background-color: rgb(7, 207, 164);
+    cursor: pointer;
+}
+.taskItem p{
+    margin: 0;
+}
